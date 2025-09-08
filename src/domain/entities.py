@@ -1,8 +1,9 @@
-from dataclasses import dataclasses
+from dataclasses import dataclass
 
-@dataclasses
+
+@dataclass
 class Email: 
   content: str
   classification: 'Classification' = None
-  suggested_classification: str = None
+  suggested_response: str = None
   
